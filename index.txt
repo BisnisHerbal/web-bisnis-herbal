@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demamin - Produk Herbal untuk Meredakan Demam</title>
+    <link rel="stylesheet" href="style.css"> <!-- Jika Anda ingin menggunakan CSS terpisah -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Demamin</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Demamin</a></li>
+                    <li><a href="#benefits">Manfaat</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
+                    <li><a href="#contact">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Selamat Datang di Demamin</h2>
+            <p>Produk herbal unggulan untuk meredakan demam dengan cepat dan aman.</p>
+            <a href="#contact" class="cta-button">Pesan Sekarang</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Demamin</h2>
+            <p>Demamin adalah produk herbal yang diformulasikan khusus untuk mengatasi demam dengan bahan alami yang berkualitas tinggi.</p>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="container">
+            <h2>Manfaat Demamin</h2>
+            <ul>
+                <li>Meredakan demam secara efektif</li>
+                <li>Menyegarkan tubuh</li>
+                <li>Menjaga kesehatan secara alami</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimoni Pengguna</h2>
+            <div class="testimonial">
+                <blockquote>
+                    "Demamin benar-benar membantu meredakan demam anak saya dengan cepat. Terima kasih Demamin!"
+                    <cite>- Ibu Ani, Jakarta</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Untuk informasi lebih lanjut atau pemesanan, silakan hubungi kami melalui formulir di bawah ini.</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Demamin. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
